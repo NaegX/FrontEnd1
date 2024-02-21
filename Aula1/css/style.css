@@ -1,0 +1,18 @@
+body {
+    text-align : center;   
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    }
+
+    #div-h1 {
+        background-color: aqua;
+        color: brown;
+    }
+
+    .divs-top{ 
+        background-color: aquamarine;
+        color: darkblue;
+        margin: 20px;
+        border: 12px;    
+    }

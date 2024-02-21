@@ -1,0 +1,15 @@
+body {
+    padding: 10px;
+    margin: 10px;
+    background-color:cyan;
+}
+
+.tittle {
+    background-color: cadetblue;
+    text-align: center;
+    width: 100%;
+}
+
+#tittle1 {
+    color: blueviolet;
+}

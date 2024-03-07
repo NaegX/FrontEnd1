@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <title>Gean Luccas Xisto da Silva</title>
         <style>
+            body{
+                text-align: center;
+                padding: 50px;
+            }
             .POO {
                 background-color: rgb(212, 93, 93);
             }
@@ -22,11 +26,17 @@
             .COM {
                 background-color: cornflowerblue;
             }
+            table{
+                border: 1px solid black;
+            }
+            tr, th, td{
+                border: 1px solid black;
+            }
         </style>
 
     </head>
     <body>
-        <table border="3">
+        <table>
             <tr>
                 <td>&nbsp;</td>
                 <th colspan="6" scope="col"><strong>Dias da Semana</strong></th>
@@ -74,9 +84,9 @@
             </tr>
         </table>
 
-        <table border="1">
+        <table>
             <tr>
-                <td>&nbsp;</td>
+                <td>Origem</td>
                 <td>Horário de Saída</td>
                 <td>Empresa</td>
                 <td>Logo da Empresa</td>
@@ -85,8 +95,55 @@
                 <td>Classe do Ônibus</td>
             </tr>
             <tr>
-                <td>Florianópolis</td>
-                <td>06:00</td>
+                <td rowspan="2" scope="row">Florianópolis</td>
+                <td>06:50</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Bairro São Pedro</td>
+                <td>R$ 5,55</td>
+                <td>Convencional</td>
+            </tr>
+            <tr>
+                <td>18:00</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Bairro São Pedro</td>
+                <td>R$ 5,55</td>
+                <td>Convencional</td>
+            </tr>
+            <tr>
+                <td rowspan="2" scope="row">Florianópolis</td>
+                <td>06:50</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Palmas Gov. Celso Ramos</td>
+                <td>R$ 9,80</td>
+                <td>Convencional</td>
+            </tr>
+            <tr>
+                <td>14:30</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Palmas Gov. Celso Ramos</td>
+                <td>R$ 9,80</td>
+                <td>Convencional</td>
+            </tr>
+            <tr>
+                <td rowspan="2" scope="row">Florianópolis</td>
+                <td> 07:55</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Biguaçu</td>
+                <td>R$ 7,70</td>
+                <td>Convencional</td>
+            </tr>
+            <tr>
+                <td> 08:40</td>
+                <td>Biguaçu</td>
+                <td> <img src="image/images.png" height="100" width="100"  > </td>
+                <td>Biguaçu</td>
+                <td>R$ 11,55</td>
+                <td>Executivo</td>
             </tr>
         </table>
     </body>

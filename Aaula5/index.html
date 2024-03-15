@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Talentos</title>
+</head>
+<body>
+    <h1>Developer Talent Agency</h1>
+    <h3>
+        Nosso objetivo é fazer você alcançar o seu.
+        <p></p>
+        Vamos juntos construir o seu futuro , para isso , conte-nos um pouco sobre você:
+    </h3>
+    <hr>
+    <form action="nada" method="get">
+        <h2>Dados pessoais</h2>
+        <label for="nome"> Entre com seu nome completo: 
+            <input type="text" size="50" id="nome">
+        </label>
+        <p></p>
+        <label for="email"> Entre com seu E-mail: 
+            <input type="email" size="50" id="email">
+        </label>
+        <p></p>
+        <label for="cpf"> Informe seu CPF:
+            <input type="text" size="50" id="cpf">
+        </label>
+        <p></p>
+        <label for="Data"> Insira sua data de Nascimento: 
+            <input type="date" id="data" name="Nascimento">
+        </label>
+        <p></p>
+        <label for="idade"> Insira sua Idade: 
+            <input type="number" id="idade">
+        </label>
+        <p></p>
+        <label for="tel"> Insira seu Nº de Telefone: 
+            <input type="tel" name="Nascimento" id="tel">
+        </label>
+        <p></p>
+        <label for="foto"> Envie uma foto 3X4: 
+            <input type="file" name="foto" id="foto" accept=".jgp, .png, .heic">
+        </label>
+        <p></p>
+        <label for="info"> Conte-nos mais sobre você: 
+            <textarea id="info" style="height: 100px; width: 300px;"></textarea>
+        </label>
+        <hr>
+        <h2>Dados Escolares</h2>
+        <label for="esco"> Escolaridade: 
+            <select name="Escolaridade" id="esco">
+                <option value="Nenhuma">Nenhuma</option>
+                <option value="analfabeto">Analfabeto</option>
+                <option value="fundIncom">Fundamental Incompleto</option>
+                <option value="fundCompl">Fundamental Completo</option>
+                <option value="medioIncom">Médio Incompleto</option>
+                <option value="medioCompl">Médio Completo</option>
+                <option value="supIncom">Superior Incompleto</option>
+                <option value="supCompl">Superior Completo</option>
+            </select>
+        </label>
+        <p></p>
+        Instituições de Ensio frequentadas: <textarea></textarea>
+        <hr>
+        <h2>Vaga Desejada</h2>
+        <label for="vaga"> Qual sua área de interese/vaga:
+            <input type="text" size="50" id="vaga">
+        </label>
+        <p></p>
+        <label for="salario"> Informe sua pretensão salarial:
+            <input type="text" size="10" id="salario">
+        </label>
+        <p></p>
+        <input type="submit"> <input type="reset">
+    </form>
+</body>
+</html>

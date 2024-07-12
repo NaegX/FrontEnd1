@@ -1,0 +1,3 @@
+function showCloseAside() {
+    alert("Oi");
+}

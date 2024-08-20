@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Membros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciar Membros</h1>
+        <a href="index.html">Voltar para Home</a>
+    </header>
+    <main>
+        <form id="add-member-form">
+            <input type="text" id="member-name" placeholder="Nome" required>
+            <input type="text" id="member-info" placeholder="Informações adicionais">
+            <button type="submit">Adicionar Membro</button>
+        </form>
+
+        <input type="text" id="search-member" placeholder="Buscar membro">
+        <ul id="members"></ul>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
